@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CleverBanner">
+        <!--banner高度-->
+        <attr name="banner_height" format="dimension"/>
+        <!--indicator布局高度-->
+        <attr name="indicatorLayout_height" format="dimension"/>
+        <!--占位图-->
+        <attr name="placeIcon" format="reference"/>
+        <!--加载出错图-->
+        <attr name="errorIcon" format="reference"/>
+        <!--选中颜色-->
+        <attr name="selected_color" format="color"/>
+        <!--选中的指示点变大-->
+        <attr name="bigger_height" format="integer"/>
+        <!--未选中颜色-->
+        <attr name="unSelected_color" format="color"/>
+        <!--轮播时间间隔-->
+        <attr name="time" format="integer"/>
+        <!--是否自动播放-->
+        <attr name="isDisplay" format="boolean"/>
+        <!--是否有指示点-->
+        <attr name="isIndicator" format="boolean"/>
+        <!--指示点间距-->
+        <attr name="margin" format="integer"/>
+        <!--指示点布局透明度-->
+        <attr name="indicator_alpha" format="float"/>
+        <!--指示点布局颜色-->
+        <attr name="indicator_background_color" format="color"/>
+    </declare-styleable>
+</resources>
