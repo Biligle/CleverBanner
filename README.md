@@ -1,7 +1,8 @@
 # CleverBanner
 轮播图，无限循环，无限滑动，有指示点（实心），可以自由设置
 ## 使用介绍
-* Green * step1：在根目录的build.gradle文件添加<br>
+* Green 
+* step1：在根目录的build.gradle文件添加<br>
 ***
 ```
 allprojects {
