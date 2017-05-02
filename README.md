@@ -9,20 +9,23 @@ allprojects {
 			maven { url 'https://jitpack.io' }
 		}
 	}
-```<br><br>
+```
+<br><br>
 * **step2：为app的build.gradle恩建添加依赖**<br>
 ```
 dependencies {
 	        compile 'com.github.Biligle:CleverBanner:v1.0'
 	}
-```<br><br>
+```
+<br><br>
 * **step3：在你的布局中引用**<br>
 ```
     <com.wgl.cleverbannerlibrary.CleverBanner
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="200dp"/>
-```<br><br>
+```
+<br><br>
 * **以上是最简单的引用，当然可以根据要求改变属性**<br>
 palaceIcon:占位图<br>
 errorIcon：加载出错的图<br>
