@@ -27,14 +27,15 @@ dependencies {
 
 </RelativeLayout>
 ## 以上是最简单的引用，当然可以根据要求改变属性
-        placeIcon：<!--占位图-->
-        errorIcon：<!--加载出错图-->
-        selected_color：<!--选中颜色-->
-        bigger_height：<!--选中的指示点变大-->
-        unSelected_color：<!--未选中颜色-->
-        time：<!--轮播时间间隔-->毫秒值
-        isDisplay：<!--是否自动播放-->true:自动播放
-        isIndicator：<!--是否有指示点-->true:有指示点
-        margin：<!--指示点间距-->
-        indicator_alpha：<!--指示点布局透明度-->
-        indicator_background_color<!--指示点布局颜色-->
+       
+palaceIcon:占位图
+errorIcon：加载出错的图
+margin： 指示点间距
+selected_color：指示点选中颜色
+unSelected_color：指示点未选中颜色
+bigger_height：指示点选中变大
+indicator_background_color ：指示点背景颜色
+indicator_alpha： 指示点背景透明度
+time：轮播时间（毫秒）
+isDisplay：true: 自动播放
+isIndicator：true:有指示点
