@@ -1,4 +1,5 @@
 # CleverBanner
+[我的CSDN博客](http://blog.csdn.net/qq_29266921)<br>
 轮播图，无限循环，无限滑动，有指示点（实心），可以自由设置<br><br>
 ## 使用介绍
 * **step1：在根目录的build.gradle文件添加**<br>
@@ -35,3 +36,5 @@ indicator_alpha： 指示点背景透明度<br>
 time：轮播时间（毫秒）<br>
 isDisplay：true: 自动播放<br>
 isIndicator：true:有指示点<br>
+* **视图展示**<br>
+![](https://github.com/Biligle/CleverBanner/a.gif)
