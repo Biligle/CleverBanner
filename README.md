@@ -1,9 +1,8 @@
 # CleverBanner
 轮播图，无限循环，无限滑动，有指示点（实心），可以自由设置
 ## 使用介绍
-* Green 
 * step1：在根目录的build.gradle文件添加<br>
-***
+* * *
 ```
 allprojects {
 		repositories {
@@ -13,12 +12,14 @@ allprojects {
 	}
 ```
 * step2：为app的build.gradle恩建添加依赖<br>
+* * *
 ```
 dependencies {
 	        compile 'com.github.Biligle:CleverBanner:v1.0'
 	}
 ```
 * step3：在你的布局中引用<br>
+* * *
 ```
     <com.wgl.cleverbannerlibrary.CleverBanner
         android:id="@+id/banner"
@@ -26,6 +27,7 @@ dependencies {
         android:layout_height="200dp"/>
 ```
 * 以上是最简单的引用，当然可以根据要求改变属性<br>
+* * *
 palaceIcon:占位图<br>
 errorIcon：加载出错的图<br>
 margin： 指示点间距<br>
